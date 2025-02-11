@@ -9,6 +9,7 @@
     <canvas id="unity-canvas" width=800 height=800 tabindex="-1" style="width: min(90vw, 90vh); height: min(90vw, 90vh); background: #231F20; margin-top: 5vh;"></canvas>
     <script src="Build/Recoil Game Build.loader.js"></script>
     <script>
+      /*
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
         var meta = document.createElement('meta');
@@ -23,6 +24,7 @@
 
         document.body.style.textAlign = "left";
       }
+      */
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/Recoil Game Build.data.unityweb",
